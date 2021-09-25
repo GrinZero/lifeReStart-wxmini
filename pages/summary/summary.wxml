@@ -1,0 +1,19 @@
+<l-capsuleBar bg-color="var(--pageBg--)" home-page="/packageLifeRestart/pages/index/index">
+  <text slot="title" style="font-size:36rpx;font-weight:300;color:white">人生总结</text>
+</l-capsuleBar>
+<view class="main flexColumn">
+  <view class="mainItem h1">人生就是这样滴~</view>
+  <view class="flexRow inforContain mainItem">
+    <j-image-plus src="{{avatarUrl}}" width="96rpx" height="96rpx" style="border-radius:100%;border:3px solid white">
+    </j-image-plus>
+    <text>{{nickName}} 的第 {{playNum}} 次轮回</text>
+  </view>
+  <view class="mainItem">
+    <view class="detailItem" wx:for="{{source}}" wx:key="index">
+      <j-talent-item source="{{item}}" canTap="{{false}}" ></j-talent-item>
+    </view>
+  </view>
+  <view class="mainItem go flexCenter" style="margin-top:72rpx" hover-class="hoverGo" bindtap="goStart">
+    再入轮回
+  </view>
+</view>

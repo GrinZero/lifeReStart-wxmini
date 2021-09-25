@@ -1,0 +1,19 @@
+@import '../../util/public.wxss';
+.main{
+  width: 100vw;
+  margin-top: 36rpx;
+}
+.mainItem{
+  width: 90%;
+}
+.detailItem{
+  width: 100%;
+  margin-bottom: 9rpx;
+}
+.inforContain{
+  height: 180rpx;
+  color: white;
+}
+.inforContain>text{
+  margin-left: 36rpx;
+}

@@ -1,0 +1,34 @@
+@import '../../util/public.wxss';
+.main{
+  width: 100%;
+  border-radius: 18rpx;
+  padding: 18rpx 0;
+  font-size: 27rpx;
+  border: 1.6px solid white;
+  color: white;
+  transition: background-color .36s ease,color .36s ease;
+}
+.main0{
+  background: #686868;
+}
+.main1{
+  background:#74bfff;
+}
+.main2{
+  background: #e2a7ff;
+}
+.main3{
+  background: #ffa07a;
+}
+.hover--main0,.hover--main1,.hover--main3,.hover--main2{
+  color: #3b3b3b;
+}
+.hover--main0{
+  background: #cacaca;
+}
+.hover--main1{
+  background: #9fcff8;
+}
+.hover--main3{
+  background: #f7a989;
+}

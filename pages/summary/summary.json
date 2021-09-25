@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "j-talent-item":"../../components/talent-item",
+    "j-image-plus":"../../components/j-image",
+    "l-capsuleBar":"../../components/public/l-capsuleBar"
+  },
+  "navigationStyle": "custom"
+}

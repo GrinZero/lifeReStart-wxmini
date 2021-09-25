@@ -1,0 +1,38 @@
+<l-capsuleBar bg-color="var(--pageBg--)" home-page="/packageLifeRestart/pages/index/index">
+  <text slot="title" style="font-size:36rpx;font-weight:300;color:white">人生重开模拟器</text>
+</l-capsuleBar>
+<view class="flexColumn main">
+  <view class="mainItem propertyContain flexRow">
+    <view class="flexRow flexCenter propertyItem">
+      <view>颜值：{{CHR}}</view>
+    </view>
+    <view class="flexRow flexCenter propertyItem">
+      <view>智力：{{INT}}</view>
+    </view>
+    <view class="flexRow flexCenter propertyItem">
+      <view>体质：{{STR}}</view>
+    </view>
+    <view class="flexRow flexCenter propertyItem after">
+      <view>家境：{{MNY}}</view>
+    </view>
+    <view class="flexRow flexCenter propertyItem after">
+      <view>快乐：{{CHR}}</view>
+    </view>
+  </view>
+  <scroll-view scroll-y="true" show-scrollbar="{{false}}" enhanced="true" class="eventContain" scroll-into-view="{{scrollView}}" bindtap="nextAge">
+    <block wx:for="{{events}}" wx:key="index">
+      <view class="scrollItem" id="scrollView{{index}}">
+        <text>{{item.age}}岁：</text>
+        <text wx:for="{{item.content}}" wx:key="index">{{item.description}}</text>
+      </view>
+    </block>
+  </scroll-view>
+  <view class="go mainItem flexCenter" hover-class="hoverGo" style="margin-top: 24rpx;" wx:if="{{isEnd}}" bindtap="toSummary">
+    人生总结
+  </view>
+  <view wx:else class="mainItem console" style="margin-top: 24rpx;">
+    <view class="go flexCenter autoPlay {{autoPlay.level==0?'':'hoverGo'}}" bindtap="autoPlay">
+      {{autoPlay.level==0?'手动':'自动 ×'+autoPlay.level}}
+    </view>
+  </view>
+</view>

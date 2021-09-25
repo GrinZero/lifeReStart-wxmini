@@ -1,0 +1,3 @@
+<view class="main j-class flexRow flexCenter main{{source.grade}} {{choose?'hover--main'+source.grade:''}}" bindtap="handleClick">
+{{source.name}}({{source.description}})
+</view>

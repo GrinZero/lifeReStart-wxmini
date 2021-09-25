@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "j-talent-item":"../../components/talent-item",
+    "j-property-init":"../../components/property-init",
+    "l-capsuleBar":"../../components/public/l-capsuleBar"
+  },
+  "navigationStyle": "custom"
+}

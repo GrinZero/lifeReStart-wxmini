@@ -1,0 +1,43 @@
+page{
+  --pageBg--:#222831;
+  background:var(--pageBg--);
+}
+.flexRow,.flexColumn,.flexCenter{
+  display: flex;
+  align-items: center;
+}
+.flexRow{
+  flex-direction: row !important;
+}
+.flexColumn,.flexCenter{
+  flex-direction: column;
+}
+.flexCenter{
+  justify-content: center;
+}
+.hoverView{
+  opacity: .7;
+}
+.h1,.h2{
+  color: white;
+}
+.h1{
+  font-size: 56rpx;
+  padding: 25rpx 0;
+}
+.h2{
+  font-size: 36rpx;
+  padding: 18rpx 0;
+}
+.go{
+  background: #393e46;
+  color: white;
+  font-size: 36rpx;
+  padding: 18rpx 0;
+  border: 1.3px solid white;
+  transition: background-color .36s ease;
+  border-radius: 18rpx;
+}
+.hoverGo{
+  background: #ff7878;
+}

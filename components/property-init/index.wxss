@@ -1,0 +1,29 @@
+@import '../../util/public.wxss';
+.main{
+  width: 100%;
+}
+.propertyItem{
+  color: white;
+  font-size: 36rpx;
+  padding: 25rpx;
+  transform: scale(1.5);
+}
+.propertyName{
+  min-width: 120rpx;
+}
+.controlButton{
+  border: 2px solid white;
+  width: 36rpx;
+  height: 36rpx;
+  font-weight: 700;
+  border-radius: 100%;
+  margin:0 25rpx;
+}
+.random{
+  width: 45%;
+  font-weight: 700;
+  margin: 18rpx 0;
+}
+.buttonContain{
+  justify-content: space-evenly;
+}

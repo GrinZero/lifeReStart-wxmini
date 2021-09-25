@@ -1,0 +1,18 @@
+<l-capsuleBar bg-color="var(--pageBg--)" home-page="/packageLifeRestart/pages/index/index">
+  <text slot="title" style="font-size:36rpx;font-weight:300;color:white">初始属性</text>
+</l-capsuleBar>
+<view class="flexColumn main">
+  <view class="h1">调整属性点</view>
+  <view class="mainItem">
+    <j-property-init init-max-property="{{propertyMaxInit}}" bind:finishProperty="finishProperty"></j-property-init>
+  </view>
+  <view class="h2">已选天赋</view>
+  <view class="mainItem talentContain">
+    <view wx:for="{{selectedTalents}}" wx:key="_id" class="j-talent-item">
+      <j-talent-item source="{{item}}" canTap="{{false}}" j-class="j-talent-self"></j-talent-item>
+    </view>
+  </view>
+  <view class="go startNew flexCenter" hover-class="hoverGo" bindtap="startNewLife">
+    开启新人生
+  </view>
+</view>

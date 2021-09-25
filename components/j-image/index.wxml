@@ -1,0 +1,5 @@
+<image src="{{src}}" mode="{{mode}}" lazy-load="{{lazyLoad}}" webp="{{webp}}"
+  show-menu-by-longpress="{{showMenuByLongPress}}" catchtap="{{tapFunction}}"
+  style="{{height?'height:'+height+';':''}}{{width?'width:'+width+';':''}}{{style}}" bindload="loadImage"
+  class="img {{visible?'imgActive':''}} j-class" binderror="error"> </image>
+<view style="{{height?'height:'+height+';':''}}{{width?'width:'+width+';':''}}" wx:if="{{!visible&&wait}}" class="imgNone j-class"></view>

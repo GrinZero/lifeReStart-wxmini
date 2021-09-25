@@ -1,0 +1,21 @@
+<view class="flexColumn main">
+  <view class="h2">可用属性点<text> {{initMaxProperty-property}} </text></view>
+  <block wx:for="{{propertyMap}}" wx:key="index">
+    <view class="propertyItem flexRow">
+      <view class="propertyName">{{item.name}}</view>
+      <view class="numberControl flexRow">
+        <view class="controlButton flexCenter" bindtap="controlValue" data-func="-" data-index="{{index}}">-</view>
+        <view class="controlNum">{{item.value}}</view>
+        <view class="controlButton flexCenter" bindtap="controlValue" data-func="+" data-index="{{index}}">+</view>
+      </view>
+    </view>
+  </block>
+  <view class="main flexRow buttonContain">
+    <view class="random go flexCenter" bindtap="randomProperty" hover-class="hoverGo">
+      随机分配
+    </view>
+    <view class="random go flexCenter" bindtap="clearProperty" hover-class="hoverGo">
+      清空
+    </view>
+  </view>
+</view>

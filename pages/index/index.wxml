@@ -1,0 +1,10 @@
+<l-capsuleBar bg-color="var(--pageBg--)" home-page="/pages/index/index">
+  <text slot="title" style="font-size:36rpx;font-weight:300;color:white">人生重开模拟器</text>
+</l-capsuleBar>
+<view class="main flexColumn flexCenter">
+  <view class="h1" style="padding-bottom:6rpx">人生重开模拟器</view>
+  <view class="h2">这垃圾人生一秒也不想呆了</view>
+  <view class="go start flexCenter" hover-class="hoverGo" bindtap="goStart">
+    立即重开
+  </view>
+</view>

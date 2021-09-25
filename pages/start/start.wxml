@@ -1,0 +1,22 @@
+<l-capsuleBar bg-color="var(--pageBg--)" home-page="/packageLifeRestart/pages/index/index">
+  <text slot="title" style="font-size:36rpx;font-weight:300;color:white">人生重开模拟器</text>
+</l-capsuleBar>
+<view class="flexColumn main">
+  <block wx:if="{{!showTalents}}">
+    <view class="go flexCenter" hover-class="hoverGo" bindtap="goStart" bindtap="setShow">
+      十连抽！
+    </view>
+  </block>
+  <block wx:else>
+    <view style="width:90%">
+      <view class="go flexCenter" hover-class="hoverGo" style="width:120rpx" bindtap="loadTalents">刷新</view>
+    </view>
+    <view class="talentContain" catchtap="{{selectedTalents.length>=3?'talentContain':''}}">
+      <view wx:for="{{talentsArray}}" wx:key="_id" class="j-talent-item">
+        <j-talent-item source="{{item}}" bind:talentChoose="talentChoose"
+          canTap="{{selectedTalents.length>=3?false:true}}"></j-talent-item>
+      </view>
+    </view>
+    <view bindtap="startLife" class="go flexCenter" hover-class="hoverGo">请选择三个天赋</view>
+  </block>
+</view>

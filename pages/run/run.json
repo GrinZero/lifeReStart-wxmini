@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "l-capsuleBar":"../../components/public/l-capsuleBar"
+  },
+  "navigationStyle": "custom"
+}

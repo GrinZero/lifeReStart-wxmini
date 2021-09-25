@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "j-talent-item":"../../components/talent-item",
+    "l-capsuleBar":"../../components/public/l-capsuleBar"
+  },
+  "navigationStyle": "custom"
+}
