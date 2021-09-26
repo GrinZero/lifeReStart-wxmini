@@ -35,3 +35,9 @@
 - 成就
 - 历史
 - 排行榜
+
+## ShowCase
+[![4y6SzT.png](https://z3.ax1x.com/2021/09/26/4y6SzT.png)](https://imgtu.com/i/4y6SzT)
+[![4y6FeJ.png](https://z3.ax1x.com/2021/09/26/4y6FeJ.png)](https://imgtu.com/i/4y6FeJ)
+[![4y6VF1.png](https://z3.ax1x.com/2021/09/26/4y6VF1.png)](https://imgtu.com/i/4y6VF1)
+[![4y6nSK.png](https://z3.ax1x.com/2021/09/26/4y6nSK.png)](https://imgtu.com/i/4y6nSK)
