@@ -31,6 +31,9 @@
 2. 把包复制到和`pages`同级
 3. 编译，可以跑惹
 
+形成这样的目录结构：  
+[![42fo9g.png](https://z3.ax1x.com/2021/09/27/42fo9g.png)](https://imgtu.com/i/42fo9g)
+
 ## ToDo
 
 - 成就
