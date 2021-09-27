@@ -3,7 +3,8 @@
 ## 简介
 
 - 根据[人生重开模拟器](https://github.com/VickScarlet/lifeRestart)整的微信小程序版
-- 数据和核心逻辑代码均采用VickScarlet版
+- 数据和核心逻辑代码均采用 VickScarlet 版
+- extension核心包来自于[lifeRestartWX](https://github.com/uiiang/lifeRestartWX)的'utils/liferestart'包（我今天才知道这和原包有些许差别）
 
 ## 使用说明
 
